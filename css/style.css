@@ -5,7 +5,7 @@
     --color4:#CDC8B4;
     --color5:#3A5F94;
 }
-html, body {
+html, body{
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -24,9 +24,6 @@ body{
     height: 100dvh;
     width: 100%;
 }
-body{
-    background-color: var(--color2);
-}
 figure{
     width: 100%;
     height: 100%;
@@ -42,7 +39,7 @@ section.container{
     height: 100%;
     width: 100%;
 }
-section.container2 {
+section.container2{
     width: 50%;
     height: 100vh;
     display: flex;
@@ -52,7 +49,7 @@ section.container2 {
     position: relative;
     overflow: hidden;
 }
-.login {
+.login{
     margin-top: 0;
     margin: 10px;
     margin-bottom: 100px;
@@ -60,24 +57,24 @@ section.container2 {
     width: 100%;
     height: auto;
 }
-.login h2 {
+.login h2{
     font-size: 0.85rem;
     letter-spacing: 1px;
     color: #000000;
     margin-bottom: 50px;
 }
-.login h1 {
+.login h1{
     font-size: 3rem;
     font-weight: 500;
     color: #000000;
 }
-main.container3 {
+main.container3{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-form {
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,21 +82,21 @@ form {
     max-width: 380px;
     margin-top: 30px;
 }
-div.containers {
+div.containers{
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
 }
 
-div.containers label {
+div.containers label{
     text-align: left;
     font-size: 0.85rem;
     font-weight: bold;
     color: #333333;
     margin-bottom: 6px;
 }
-div.containers input {
+div.containers input{
     background-color: var(--color4);
     border: 2px solid var(--color3);
     border-radius: 20px;
@@ -109,12 +106,12 @@ div.containers input {
     font-size: 0.95rem;
     outline: none;
 }
-div.containers input::placeholder {
+div.containers input::placeholder{
     color: #666666;
     font-size: 0.85rem;
     padding: 0;
 }
-button#log {
+button#log{
     background-color: var(--color1);
     color: #ffffff;
     font-weight: bold;
@@ -135,7 +132,7 @@ button#log:hover{
     color: var(--color3);
     text-decoration: none;
 }
-#signin:hover {
+#signin:hover{
     text-decoration: underline;
 }
 #forgot{
@@ -152,68 +149,9 @@ button#log:hover{
     width: 100%;
     height: 200px;
     position: absolute;
-    top: 0;
+    top: -60px;
     left: 0;
     pointer-events: none;
-}
-#circle01{
-    position: absolute;
-    background-color: var(--color1);
-    width: 13rem;
-    height: 13rem;
-    border-radius: 50%;
-    top: -20px;
-    opacity: 15%;
-}
-#circle02{
-    position: absolute;
-    background-color: var(--color1);
-    width: 17rem;
-    height: 17rem;
-    border-radius: 50%;
-    top: -8rem;
-    opacity: 15%;
-    left: 5.7rem;
-}
-#circle03{
-    position: absolute;
-    background-color: var(--color1);
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
-    top: -40px;
-    opacity: 15%;
-    left: 21rem;
-}
-#circle04{
-    position: absolute;
-    background-color: var(--color1);
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
-    top: 30px;
-    opacity: 15%;
-    left: 9rem;
-}
-#circle05{
-    position: absolute;
-    background-color: var(--color1);
-    width: 9rem;
-    height: 9rem;
-    border-radius: 50%;
-    top: 8rem;
-    opacity: 15%;
-    left: 1rem;
-}
-#circle06{
-    position: absolute;
-    background-color: var(--color1);
-    width: 9rem;
-    height: 9rem;
-    border-radius: 50%;
-    top: 11rem;
-    opacity: 15%;
-    left: 24rem;
 }
 .login, main.container3{
     position: relative;
@@ -232,4 +170,8 @@ button#log:hover{
   height: 100%;
   background-color: var(--color1);
   opacity: 50%;
+}
+#background-circles svg{
+    width: 100%;
+    height: 26rem;
 }
