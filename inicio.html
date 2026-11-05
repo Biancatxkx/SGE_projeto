@@ -25,46 +25,64 @@
             <button>Tutorial</button>
         </div>
         <div class="perfil">
-            <img src="" alt="Foto de Perfil de Integrante da Equipe OED">  <!-- Preciso colocar algo aqui -->
             <div class="nome-perfil">
                 <p><strong>Equipe OED</strong></p>
                 <span>Apoio Técnico & Gestão</span>
             </div>
+            <figure>
+                <img src="" alt="Foto de Perfil de Integrante da Equipe OED">  <!-- Preciso colocar algo aqui -->
+            </figure>
         </div>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="painel">
+            <div class="painelemp">
                 <time datetime="relogio-atual"></time> <!-- Não sei como fazer funcionar direito :D -->
                 <h1>Painel da Equipe - Empréstimos do Dia</h1>
             </div>
-            <button>Devolução</button>
-            <button>+ Novo Empréstimo</button>
+            <div class="empdev">
+                <button>Devolução</button>
+                <button>+ Novo Empréstimo</button>
+            </div>
         </section>
-        <section>
-            <div>
+        <section class="cards">
+            <div class="card1">
                 <p>APARELHOS EMPRESTADOS</p>
-                <h2>2</h2>
-                <span>empréstimos</span>
+                <div class="dados1">
+                    <h2>02</h2>
+                    <span>empréstimos</span>
+                </div>
                 <p>Em uso nas salas agora</p>
             </div>
-            <div>
+            <div class="card2">
                 <p>PEDIDOS PARA APROVAR</p>
-                <h2>2</h2>
-                <span>solicitações</span>
+                <div class="dados2">
+                    <h2>02</h2>
+                    <span>solicitações</span>
+                </div>
                 <p>Professores aguardando</p>
             </div>
-            <div>
+            <div class="card3">
                 <p>DEVOLUÇÕES DE HOJE</p>
-                <h2>3</h2>
-                <span>aparelhos</span>
+                <div class="dados3">
+                    <h2>03</h2>
+                    <span>aparelhos</span>
+                </div>
                 <p>Para entregar até as 17:00</p>
             </div>
-            <div>
-                <p>APARELHOS COM DEFEITO </p>
+            <div class="card4">
+                <p>APARELHOS COM DEFEITO</p>
+                <div class="dados4">
+                    <h2>02</h2>
+                    <span>bloqueados</span>
+                </div>
+                <p>Em conserto na oficina</p>
             </div>
         </section>
-        <section></section>
+        <section>
+            <p>Novos pedidos para liberar!</p>
+
+        </section>
         <section></section>
     </main>
     <footer></footer>
