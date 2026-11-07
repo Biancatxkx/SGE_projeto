@@ -75,3 +75,50 @@ img{
     object-fit: cover;
     object-position: center;
 }
+section.painel{
+    display: flex;
+    width: 95%;
+    height: auto;
+    justify-content: space-between;
+    margin: 15px 40px;
+}
+div.empdev{
+    display: inline-flex;
+    align-items: center;
+}
+div.empdev button{
+    height: 2.4rem;
+    margin: 0 8px;
+    border-radius: 10px;
+    border: 0;
+}
+button.emp{
+    background-color: var(--color1);
+    width: 11rem;
+    color: white;
+}
+button.dev{
+    background-color: var(--color5);
+    width: 7rem;
+    color: white;
+}
+section.cards{
+    display: flex;
+    margin: 30px 40px;
+    justify-content: space-between;
+}
+section.cards div.card{
+    background-color: white;
+    width: 20%;
+    height: 12rem;
+    padding: 0 0 25px 25px;
+    border-radius: 20px;
+    display: inherit;
+    flex-direction: column;
+    gap: 1rem;
+}
+div.dados{
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
